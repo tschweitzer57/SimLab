@@ -1,0 +1,14 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+
+    "Vehicles": {
+        "Drone": {
+            "VehicleType": "SimpleFlight",
+            "X": 0,
+            "Y": 0,
+            "Z": 0,
+            "Yaw": 0
+        }
+    }
+}
