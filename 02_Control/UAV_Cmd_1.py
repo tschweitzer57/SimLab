@@ -46,7 +46,7 @@ client.takeoffAsync(vehicle_name="Drone1")
 # Faire un scénario de mission
 
 # meme chose avec plusieurs drones
- client.enableApiControl(True, vehicle_name="Drone2")
+client.enableApiControl(True, vehicle_name="Drone2")
 
 # obtenir les images : check image apis
 client.simGetImage(self, camera_name, image_type, vehicle_name = '', external = False)

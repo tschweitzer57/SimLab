@@ -19,36 +19,36 @@ client.armDisarm(True, 'Drone4')
 
 # Drone1 takeoff
 client.takeoffAsync(vehicle_name='Drone1').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone2 takeoff
 client.takeoffAsync(vehicle_name='Drone2').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone3 takeoff
 client.takeoffAsync(vehicle_name='Drone3').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone4 takeoff
 client.takeoffAsync(vehicle_name='Drone4').join()
-time.sleep(3)
+time.sleep(1)
 
-time.sleep(10)
+time.sleep(5)
 
 # Drone4 landing
 client.landAsync(vehicle_name='Drone4').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone3 landing
 client.landAsync(vehicle_name='Drone3').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone2 landing
 client.landAsync(vehicle_name='Drone2').join()
-time.sleep(3)
+time.sleep(1)
 
 # Drone1 landing
 client.landAsync(vehicle_name='Drone1').join()
-time.sleep(3)
+time.sleep(1)
 
 
